@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes } from "react-router-dom";
-import NavigationBar from "./Components/NavigationBar";
+import { NavigationBar } from "./Components/NavigationBar";
 
 function App() {
   return (
