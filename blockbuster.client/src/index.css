@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Blockfont";
-  src: url("./assets/ITC_Machine_LT_Medium.ttf");
+	font-family: "Blockfont";
+	src: url("./assets/ITC_Machine_LT_Medium.ttf");
 }
