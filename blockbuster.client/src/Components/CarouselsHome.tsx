@@ -1,26 +1,56 @@
 import { Carousel } from "flowbite-react";
 
 export function CarouselsHome() {
-  return (
-    <div className="container mx-auto grid grid-cols-3 gap-10">
-      <div className="col-span-2">
-        <Carousel>
-          <img src="https://www.focus.it/site_stored/imgs/0004/027/corbis_42-19748562.1020x680.jpg" alt="..." />
-          <img src="https://www.focus.it/site_stored/imgs/0004/027/corbis_42-19748562.1020x680.jpg" alt="..." />
-          <img src="https://www.focus.it/site_stored/imgs/0004/027/corbis_42-19748562.1020x680.jpg" alt="..." />
-          <img src="https://www.focus.it/site_stored/imgs/0004/027/corbis_42-19748562.1020x680.jpg" alt="..." />
-          <img src="https://www.focus.it/site_stored/imgs/0004/027/corbis_42-19748562.1020x680.jpg" alt="..." />
-        </Carousel>
-      </div>
-      <div className="col-span-1">
-        <Carousel className="h-[20rem]">
-          <img src="https://www.focus.it/site_stored/imgs/0004/027/corbis_42-19748562.1020x680.jpg" alt="..." />
-          <img src="https://www.focus.it/site_stored/imgs/0004/027/corbis_42-19748562.1020x680.jpg" alt="..." />
-          <img src="https://www.focus.it/site_stored/imgs/0004/027/corbis_42-19748562.1020x680.jpg" alt="..." />
-          <img src="https://www.focus.it/site_stored/imgs/0004/027/corbis_42-19748562.1020x680.jpg" alt="..." />
-          <img src="https://www.focus.it/site_stored/imgs/0004/027/corbis_42-19748562.1020x680.jpg" alt="..." />
-        </Carousel>
-      </div>
-    </div>
-  );
+	return (
+		<div className="container mx-auto grid grid-cols-5 gap-10">
+			<div className="col-span-3 h-[20rem]">
+				<Carousel>
+					<img
+						src="https://www.punto-informatico.it/app/uploads/2022/01/blockbuster-rinascita-futuro-servizio-metaverso-nuovo-nemico-netflix-2120x848.jpeg"
+						alt="..."
+					/>
+					<img
+						src="https://www.punto-informatico.it/app/uploads/2022/01/blockbuster-rinascita-futuro-servizio-metaverso-nuovo-nemico-netflix-2120x848.jpeg"
+						alt="..."
+					/>
+					<img
+						src="https://www.punto-informatico.it/app/uploads/2022/01/blockbuster-rinascita-futuro-servizio-metaverso-nuovo-nemico-netflix-2120x848.jpeg"
+						alt="..."
+					/>
+					<img
+						src="https://www.punto-informatico.it/app/uploads/2022/01/blockbuster-rinascita-futuro-servizio-metaverso-nuovo-nemico-netflix-2120x848.jpeg"
+						alt="..."
+					/>
+					<img
+						src="https://www.punto-informatico.it/app/uploads/2022/01/blockbuster-rinascita-futuro-servizio-metaverso-nuovo-nemico-netflix-2120x848.jpeg"
+						alt="..."
+					/>
+				</Carousel>
+			</div>
+			<div className="col-span-2 pt-[2.5rem]">
+				<Carousel className="h-[15rem]">
+					<img
+						src="https://www.punto-informatico.it/app/uploads/2022/01/blockbuster-rinascita-futuro-servizio-metaverso-nuovo-nemico-netflix-2120x848.jpeg"
+						alt="..."
+					/>
+					<img
+						src="https://www.punto-informatico.it/app/uploads/2022/01/blockbuster-rinascita-futuro-servizio-metaverso-nuovo-nemico-netflix-2120x848.jpeg"
+						alt="..."
+					/>
+					<img
+						src="https://www.punto-informatico.it/app/uploads/2022/01/blockbuster-rinascita-futuro-servizio-metaverso-nuovo-nemico-netflix-2120x848.jpeg"
+						alt="..."
+					/>
+					<img
+						src="https://www.punto-informatico.it/app/uploads/2022/01/blockbuster-rinascita-futuro-servizio-metaverso-nuovo-nemico-netflix-2120x848.jpeg"
+						alt="..."
+					/>
+					<img
+						src="https://www.punto-informatico.it/app/uploads/2022/01/blockbuster-rinascita-futuro-servizio-metaverso-nuovo-nemico-netflix-2120x848.jpeg"
+						alt="..."
+					/>
+				</Carousel>
+			</div>
+		</div>
+	);
 }
